@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="CursedTimerULiL.ttf" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-div">
+                <h3>HOME</h3>
+                <div class="score-board">
+                    <span class="paragraph" id="home-p"></span>
+                </div>
+                <button class="add-button" onclick="homeAdd1()">+1</button>
+                <button class="add-button" onclick="homeAdd2()">+2</button>
+                <button class="add-button" onclick="homeAdd3()">+3</button>
+            </div>
+            <div class"guest-div">
+                <h3>GUEST</h3>
+                <div class="score-board">
+                    <span class="paragraph" id="guest-p"></span>
+                </div>
+                <button class="add-button" onclick="guestAdd1()">+1</button>
+                <button class="add-button" onclick="guestAdd2()">+2</button>
+                <button class="add-button" onclick="guestAdd3()">+3</button>
+            </div>
+            
+        </div>
+        
+        <button id="rematch-button" onclick="rematch()">REMATCH</button> 
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>

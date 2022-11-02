@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.home-div, guest-dive{
+    /* text-align: center; */
+}
+.score-board{
+    background-color: black;
+    text-align: center;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.paragraph{
+    
+    width: 117px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    margin:0 auto;
+    padding:0;
+    
+    
+
+    color: #F94F6D;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+
+
+}
+
+#rematch-button{
+    display: block;
+    margin: 40px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    background-color: green;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    width:100px;
+    line-height: 30px;
+    cursor: pointer;
+    box-shadow:0 0 8px black;
+
+   
+}
+.add-button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    /* position: absolute; */
+    margin:25px 5px 0px 5px;
+    width: 45px;
+    height: 45px;
+   
+    cursor: pointer;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color:#9AABD8;
+   
+    background-color:transparent;
+
+}
